@@ -31,15 +31,8 @@
 
             <TextView
                 android:id="@+id/textoDescription"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginLeft="15dp"
-                android:layout_weight="10"
                 android:text="And no text generation"
-                android:textColor="@color/colorCohete"
-                android:textSize="20dp"
-                android:textStyle="bold" />
+                style="@style/texto1" />
         </LinearLayout>
 
 
