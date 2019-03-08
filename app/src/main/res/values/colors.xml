@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#216FED</color>
+    <color name="colorPrimaryDark">#216FED</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="colorJorge">#2AA6E1F3</color>
+    <color name="AzulProjectJorge">#85527088</color>
+    <color name="colorCohete">#FFFFFF</color>
+    <color name="AzulClaro">#CDCDDA</color>
+    <color name="OtherAzul">#536DFE</color>
+</resources>
