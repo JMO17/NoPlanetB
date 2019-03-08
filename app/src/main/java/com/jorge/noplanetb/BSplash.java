@@ -1,8 +1,11 @@
 package com.jorge.noplanetb;
 
 import android.content.Intent;
+import android.graphics.Typeface;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
@@ -17,6 +20,7 @@ public class BSplash extends AppCompatActivity {
     TextView txtDescripcion;
 
 
+    @RequiresApi(api = Build.VERSION_CODES.O)
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
@@ -31,8 +35,8 @@ public class BSplash extends AppCompatActivity {
         //Typeface myFont = Typeface.createFromAsset(getAssets(), "bromello.otf");
         //txtTitulo.setTypeface(myFont);
 
-       // Typeface typeface = getResources().getFont(R.font.bromello);
-        //txtTitulo.setTypeface(typeface);
+        //Typeface typeface = getResources().getFont(R.font.bromello);
+       // txtTitulo.setTypeface(typeface);
 
         Animation anima = AnimationUtils.loadAnimation(this, R.anim.animuno);
         Animation mytextanim = AnimationUtils.loadAnimation(this,R.anim.animdos);
